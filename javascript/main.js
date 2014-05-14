@@ -9,7 +9,6 @@ $(document).ready(
 
 		var pix = $( '.container' );
 
-
 		var rando = Math.random();
 		
 		console.log( rando );
@@ -32,3 +31,15 @@ $(document).ready(
 	});
 
 })();
+
+
+/*$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 350,
+  	slideHeight: 200, 
+  	slideMargin: 10
+	});
+
+});*/
