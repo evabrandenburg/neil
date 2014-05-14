@@ -1,6 +1,16 @@
 /* CURRENTLY IN: javascript/main.js */
 (function(){
 
+$(document).ready(
+function( e ) {
+    $("img").each(function(index) {
+        $(this).hide();
+        $(this).delay(3000* index).fadeIn(3000).fadeOut();
+    });
+});
+
+/*
+
 var changePic = $( '.more' );
 var pix = $( '.container' );
 
@@ -28,9 +38,9 @@ $(document).ready(
 		//$('.container').css('background-image', 'url()'
 
 
-	});
+	});/*
 
-})();
+
 
 
 /*$(document).ready(function(){
@@ -43,3 +53,5 @@ $(document).ready(
 	});
 
 });*/
+
+})();
