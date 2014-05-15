@@ -1,13 +1,19 @@
 /* CURRENTLY IN: javascript/main.js */
 (function(){
 
+$('img').hide();
+
 $(document).ready(
 function( e ) {
-    $("img").each(function(index) {
-        $(this).hide();
-        $(this).delay(3000* index).fadeIn(3000).fadeOut();
-    });
+	function anim() {
+    $("#wrap img").first().appendTo('#wrap').fadeOut(500);
+    $("#wrap img").first().fadeIn(500);    
+    setTimeout(anim, 1500);
+	}
+	anim();
+
 });
+
 
 /*
 
