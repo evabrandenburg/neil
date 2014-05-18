@@ -11,7 +11,7 @@ height:					100%;
 }
 
 img{
-    position:absolute;
+    position:relative;
     top:0;
     display:none;
     width:100%;
@@ -52,6 +52,8 @@ height:					100%;
 	font-size: 			50px;
 	margin:				auto;
 	color:				white;
+	float: 				left;
+	padding: 			5px 30px;
 }
 
 .top {
@@ -65,12 +67,12 @@ height:					100%;
 	padding-right:		50px;
 }
 
- h1{
+ /*h1{
 	float: 				left;
 	padding: 			5px 30px;
 	color: 				white;
 	font-size: 			32px;
-}
+}*/
 
 li {
 	float: 				left;

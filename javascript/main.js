@@ -8,10 +8,14 @@ function( e ) {
 	function anim() {
     $("#wrap img").first().appendTo('#wrap').fadeOut(500);
     $("#wrap img").first().fadeIn(500);    
-    setTimeout(anim, 1500);
+    setTimeout(anim, 3000);
 	}
 	anim();
 
+});
+
+$(document).ready(function() {
+    $('#fullpage').fullpage();
 });
 
 
