@@ -39,7 +39,7 @@ body {
 
 
 a { 
-	color:				white;
+	color:				orange;
 	text-decoration:	none;
 	font-family: 		sans-serif;
 	-webkit-transition: color .25s linear;	
@@ -48,7 +48,7 @@ a {
 }
 a:hover {
 	text-decoration:	none;
-	color:				gray;
+	color:				white;
 }
 
 p {
@@ -72,7 +72,13 @@ p {
 	padding:			10px;
 	display:			block;
 }
+
+.info a {
+	margin:				0px;
+	font-size:			18px;
+
 }
+
 
 .current a {
 	color:				gray;
