@@ -7,8 +7,8 @@ $(document).ready(
 function( e ) {
 	function anim() {
     $("#wrap img").first().appendTo('#wrap').fadeOut(1000);
-    $("#wrap img").first().fadeIn(1000);    
-    setTimeout(anim, 3000);
+    $("#wrap img").first().fadeIn(2000);    
+    setTimeout(anim, 6000);
 	}
 	anim();
 

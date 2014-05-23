@@ -57,6 +57,7 @@ p {
 .nav {
 	margin:				20px auto;
 	margin-bottom:		10px;
+	 text-transform: uppercase;
 }
 
 .info {
@@ -64,6 +65,20 @@ p {
 	margin-top:			110px;
 	margin-bottom:		80px;
 	width:				30%;
+	margin-left:		55%;
+	margin-right:		30%;
+	border-radius:		2px;
+	background-color:	rgba(0, 0, 0, 0.49);
+	color:				white;
+	padding:			10px;
+	display:			block;
+}
+
+.music {
+
+	margin-top:			150px;
+	margin-bottom:		80px;
+	width:				25%;
 	margin-left:		55%;
 	margin-right:		30%;
 	border-radius:		2px;
@@ -116,4 +131,12 @@ footer {
 	margin-top:			175px;
 	margin-bottom:		135px;
 
+}
+
+.one div {
+	display:			inline;
+	background-color:	blue;
+	padding-left:		30px;
+	padding-right:		30px;
+	width:				20%;
 }
