@@ -11,10 +11,15 @@
 	margin-left:			-15px;
 }
 
-img{
-    position: fixed;
-    display:none;
-    z-index: -1;
+#wrap {
+	width:				40%;
+	z-index:			-1;
+}
+
+#wrap img{
+    position: 				fixed;
+    display:				none;
+    z-index: 				-1;
     width:					100%;
     top:					50px;
 }
@@ -140,3 +145,4 @@ footer {
 	padding-right:		30px;
 	width:				20%;
 }
+
