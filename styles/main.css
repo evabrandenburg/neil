@@ -85,7 +85,7 @@ nav {
 
 .info {
 
-	margin-top:			150px;
+	margin-top:			165px;
 	margin-bottom:		80px;
 	margin-right:		3%;
 	width:				35%;
@@ -178,7 +178,7 @@ footer {
 .one div {
 	float:				left;
 	width:				25%;
-
+	font-size:			12px;
 	line-height:		2;
 }
 
@@ -191,6 +191,13 @@ footer {
 	.top {
  	background-image:	url(neileyes.jpg);
 	}
+
+	.one div {
+	float:				left;
+	width:				25%;
+	line-height:		2;
+	font-size:			90%;
+}
 }
 
 @media (min-width: 1300px) {
@@ -199,8 +206,18 @@ footer {
 	margin-left:			25px;
 	}
 
+	.one div {
+	float:				left;
+	width:				25%;
+	line-height:		2;
+}
+
 	.top {
  	background-image:	url(neilseyeb.jpg);
+	}
+
+	.resume {
+		font-size:		110%;
 	}
 }
 
@@ -235,9 +252,12 @@ footer {
 	.info, .resume, .contact {
 		width:				50%;
 		float:				left;
+		margin-top:			120px;
 	}
 
 	.resume {
+		width:				90%;
+		font-size:			9px;
 
 	}
 
