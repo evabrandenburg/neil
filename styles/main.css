@@ -177,7 +177,7 @@ footer {
 
 .one div {
 	float:				left;
-	width:				200px;
+	width:				25%;
 
 	line-height:		2;
 }
@@ -212,6 +212,35 @@ footer {
 	.top {
 	background-image:	url(neileyetab.jpg);
 	}
+
+	#wrap img{
+    position: 				fixed;
+    margin-left:			0%;
+    margin-right:			3%;
+    display:				none;
+    z-index: 				-1;
+    width:					100%;
+    top:					100px;
+    bottom:					50px;
+	}
+
+	a {
+		font-size:			12px;
+	}
+
+	li {
+		text-align:			inline;
+	}
+
+	.info, .resume, .contact {
+		width:				50%;
+		float:				left;
+	}
+
+	.resume {
+
+	}
+
 }
 
 
