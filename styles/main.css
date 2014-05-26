@@ -29,12 +29,12 @@ body {
 }
 
 h1 {
-	font-size: 				60px;
+	font-size: 				55px;
 	margin-left:			20px;
 }
 
 .top {
- 	background-image:	url(neileye.jpg);
+ 	background-image:	url(neileye2.jpg);
  	background-color:	black;
  	background-repeat:	no-repeat;
 	width:				100%;
@@ -180,6 +180,28 @@ footer {
 	width:				200px;
 
 	line-height:		2;
+}
+
+@media (max-width: 900px) {
+	h1 {
+	font-size: 				40px;
+	margin-left:			15px;
+	}
+
+	.top {
+ 	background-image:	url(neileyes.jpg);
+	}
+}
+
+@media (min-width: 1300px) {
+	h1 {
+	font-size: 				55px;
+	margin-left:			25px;
+	}
+
+	.top {
+ 	background-image:	url(neilseyeb.jpg);
+	}
 }
 
 
