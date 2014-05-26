@@ -204,4 +204,14 @@ footer {
 	}
 }
 
+@media (max-width: 780px) {
+	h1 {
+		font-size:		  30px;
+	}
+
+	.top {
+	background-image:	url(neileyetab.jpg);
+	}
+}
+
 
