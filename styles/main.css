@@ -124,7 +124,6 @@ nav {
 	color:				white;
 	padding:			30px;
 	display:			block;
-	text-align:			justify;
 	background-color:	rgba(255, 255, 255, .05);
 }
 
@@ -183,6 +182,13 @@ footer {
 	line-height:		2;
 }
 
+.two div {
+	float:				left;
+	width:				33%;
+	font-size:			12px;
+	line-height:		2;
+}
+
 @media (max-width: 900px) {
 	h1 {
 	font-size: 				40px;
@@ -198,7 +204,15 @@ footer {
 	width:				25%;
 	line-height:		2;
 	font-size:			90%;
-}
+	}
+
+	.two div {
+	float:				left;
+	width:				33%;
+	font-size:			90%;
+	line-height:		2;
+	}
+
 }
 
 @media (min-width: 1300px) {
@@ -211,7 +225,13 @@ footer {
 	float:				left;
 	width:				25%;
 	line-height:		2;
-}
+	}
+
+	.two div {
+	float:				left;
+	width:				33%;
+	line-height:		2;
+	}
 
 	.top {
  	background-image:	url(neilseyeb.jpg);
@@ -222,7 +242,7 @@ footer {
 	}
 }
 
-@media (max-width: 780px) {
+@media (max-width: 870px) {
 	h1 {
 		font-size:		  30px;
 	}
