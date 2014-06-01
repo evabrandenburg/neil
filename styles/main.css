@@ -91,7 +91,7 @@ nav {
 
 .info {
 
-	margin-top:			165px;
+	margin-top:			180px;
 	margin-bottom:		80px;
 	margin-right:		3%;
 	width:				35%;
@@ -150,6 +150,10 @@ nav {
 
 }
 
+.film {
+	margin-left:		12%;
+	margin-top:			180px;
+}
 
 
 
