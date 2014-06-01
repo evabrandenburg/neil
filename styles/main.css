@@ -34,6 +34,11 @@ h1 {
 	font-weight: 			200;
 }
 
+
+h3 {
+	font-size:			130%;
+	}
+
 .top {
  	background-image:	url(neileye2.jpg);
  	background-color:	black;
@@ -145,10 +150,6 @@ nav {
 
 }
 
-.film {
-	margin-left:		12%;
-	margin-top:			180px;
-}
 
 
 
@@ -189,6 +190,21 @@ footer {
 	line-height:		2;
 }
 
+.three div {
+	float:				left;
+	width:				100%;
+	font-size:			12px;
+	line-height:		2;
+	}
+
+.group {
+	margin-bottom:			50px;
+}
+
+.group2 {
+	margin-top:				20px;
+}
+
 @media (max-width: 900px) {
 	h1 {
 	font-size: 				40px;
@@ -209,6 +225,13 @@ footer {
 	.two div {
 	float:				left;
 	width:				33%;
+	font-size:			90%;
+	line-height:		2;
+	}
+
+	.three div {
+	float:				left;
+	width:				90%;
 	font-size:			90%;
 	line-height:		2;
 	}
@@ -244,7 +267,11 @@ footer {
 
 @media (max-width: 870px) {
 	h1 {
-		font-size:		  30px;
+		font-size:		  	30px;
+	}
+
+	h3 {
+		font-size:			100%;
 	}
 
 	.top {
@@ -278,7 +305,7 @@ footer {
 
 	.resume {
 		width:				90%;
-		font-size:			9px;
+		font-size:			65%;
 
 	}
 
